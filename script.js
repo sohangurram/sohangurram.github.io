@@ -8,5 +8,4 @@ document.querySelectorAll('nav a').forEach(anchor => {
         block: 'start'
       });
     });
-  });
-  
+});
