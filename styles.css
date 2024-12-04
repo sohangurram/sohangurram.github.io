@@ -10,26 +10,31 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #87CEEB; /* Sky Blue background for the header */
-    padding: 20px;
-    text-align: center;
+    background-color: #87CEEB; /* Sky Blue background */
+    padding: 10px 20px;
     border-bottom: 5px solid #f7f70e; /* Bright Yellow border */
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+}
+
 header .logo {
-    width: 150px;
+    width: 50px; /* Quarter of original size */
     height: auto;
-    display: block;
-    margin: 0 auto;
+    margin-right: 20px; /* Spacing between logo and name */
 }
 
-h1 {
-    font-family: Copperplate, Papyrus, fantasy; /* Styled with requested fonts */
-    font-size: 40px; /* Larger and bold */
+header h1 {
+    font-family: Copperplate, Papyrus, fantasy; /* Styled fonts */
+    font-size: 40px; /* Larger font size for name */
     color: #f7f70e; /* Bright Yellow text */
-    margin: 10px 0;
+    margin: 0;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -56,6 +61,7 @@ nav ul li a:hover {
     background-color: #f7f70e; /* Yellow on hover */
     color: #000; /* Maintain black text on hover */
 }
+
 
 /* Section Styles */
 section {
