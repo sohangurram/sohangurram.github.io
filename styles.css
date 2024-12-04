@@ -70,7 +70,7 @@ section {
 }
 
 #about, #portfolio, #resume, #contact {
-    background-color: #fff; /* White background for sections */
+    background-color:#87CEEB; /* White background for sections */
     color: #000; /* Black text for readability */
 }
 
