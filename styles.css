@@ -8,11 +8,12 @@ body {
     color: #000; /* Black text for readability */
 }
 
+/* Header Styles */
 header {
-    background-color: #87CEEB; /* Bright Yellow background for the header */
+    background-color: #87CEEB; /* Sky Blue background for the header */
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #f7f70e; /* Sky Blue border */
+    border-bottom: 5px solid #f7f70e; /* Bright Yellow border */
 }
 
 header .logo {
@@ -20,6 +21,13 @@ header .logo {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+h1 {
+    font-family: Copperplate, Papyrus, fantasy; /* Styled with requested fonts */
+    font-size: 40px; /* Larger and bold */
+    color: #f7f70e; /* Bright Yellow text */
+    margin: 10px 0;
 }
 
 nav ul {
@@ -66,7 +74,7 @@ section {
     color: #000; /* Black text for readability */
 }
 
-h1, h2 {
+h2 {
     text-align: center;
     color: #f7f70e; /* Yellow headings */
 }
