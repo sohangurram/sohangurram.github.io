@@ -4,12 +4,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #87CEEB; /* Sky Blue background for the body */
+    color: #000; /* Black text for readability */
 }
 
 header {
-    background-color: #1eb2f1; 
-    padding: 10px;
+    background-color: #f7f70e; /* Bright Yellow background for the header */
+    padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #87CEEB; /* Sky Blue border */
 }
 
 header .logo {
@@ -23,6 +26,8 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 10px 0;
 }
 
 nav ul li {
@@ -30,30 +35,45 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #000; /* Black text for contrast */
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #87CEEB; /* Sky Blue link background */
+}
+
+nav ul li a:hover {
+    background-color: #f7f70e; /* Yellow on hover */
+    color: #000; /* Maintain black text on hover */
 }
 
 /* Section Styles */
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
+    border-bottom: 5px solid #f7f70e; /* Yellow border for section separation */
 }
 
 #home {
-    background-color: #f4f4f4;
+    background-color: #87CEEB; /* Sky Blue */
+    text-align: center;
+    color: #000;
 }
 
 #about, #portfolio, #resume, #contact {
-    background-color: #fff;
+    background-color: #fff; /* White background for sections */
+    color: #000; /* Black text for readability */
 }
 
 h1, h2 {
     text-align: center;
+    color: #f7f70e; /* Yellow headings */
 }
 
 h3 {
     margin-top: 20px;
+    color: #87CEEB; /* Sky Blue subheadings */
 }
 
 ul {
@@ -77,27 +97,33 @@ ul li {
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
+    border: 2px solid #87CEEB; /* Sky Blue border */
+    border-radius: 5px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
+    background-color: #f7f70e; /* Bright Yellow button */
+    color: #000; /* Black text */
+    border: 2px solid #87CEEB; /* Sky Blue border */
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #87CEEB; /* Sky Blue on hover */
+    color: #000; /* Maintain black text */
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #f7f70e; /* Yellow footer */
+    color: #000; /* Black text */
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: 5px solid #87CEEB; /* Sky Blue border */
 }
